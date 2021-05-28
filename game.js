@@ -9,7 +9,7 @@ const gameBoard = document.getElementById('game-board')
 function main(currentTime) {
   if (gameOver) {
     if (confirm('You lost. Press Ok to restart.')) {
-      window.location = '/'
+      window.location = '/snakeIndex.html'
     }
     return
   }
