@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	text-align: center;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+	height: 100;
+	background: #474B4F;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+	width: 30%;
+	float: left;
+	line-height: 100px;
+}
+
+.logo a {
+	text-decoration: none;
+	font-size: 30px;
+	font-family: 'Poppins', sans-serif;
+	color: #86C232;
+	letter-spacing: 5px;
+	transition-duration: 0.4s;
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 4px;
+	font-size: 20px;
+	margin: 0 10px;
+	transition-duration: 0.4s;
+	color: #86C232;
+}
+
+nav a:hover{
+	color: #61892F;
+}
+
+.logo a:hover{
+	color: #61892F;
+}
+
+.button {
+	background-color: #86C232; 
+	border: 2px solid #86C232;
+	color: #222629;
+	padding: 16px 16px;
+	margin: 4px 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 15%;
+  }
+
+  
+  .button:hover {
+	background-color: transparent;
+	color: #86C232;
+  }
+  
+  .nav-button {
+	background-color: #86C232; 
+	border: 2px solid #86C232;
+	color: #222629;
+	padding: 10px;
+	margin: 2px 2px;
+	text-align: center;
+	text-decoration: none;
+	display: inline;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 15%;
+  }
+
+  
+  .nav-button:hover {
+	background-color: transparent;
+	color: #86C232;
+  }
+
+
+.banner-area {
+	width: 100%;
+	height: 500px;
+	position:fixed;
+	top: 100px;
+	background: #222629;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.banner-area h2 {
+	padding-top: 4%;
+	font-size: 70px;
+	font-family: 'Poppins', sans-serif;
+	text-transform: uppercase;
+	font-weight: 100;
+	color: #86C232;
+}
+
+.banner-area p{
+	color: #61892F
+}
+
+.content-area {
+	width: 100%;
+	position: relative;
+	top: 450px;
+	background: #6B6E70;
+	height: 1500px;
+	color: #222629;
+}
+.content-area h2 {
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 4px;
+	padding-top: 30px;
+	font-size: 40px;
+	margin: 0;
+}
+.content-area p {
+	padding: 2% 0px;
+	font-family: 'Poppins', sans-serif;
+	line-height: 30px;
+}

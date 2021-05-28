@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../style.css">
+  <title>Snake</title>
+  <style>
+    body {
+      height: 100vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      background-color: #222629;
+    }
+
+    #game-board {
+      background-color: #6B6E70;
+      width: 80vmin;
+      height: 80vmin;
+      display: grid;
+      grid-template-rows: repeat(21, 1fr);
+      grid-template-columns: repeat(21, 1fr);
+    }
+
+    .game-board-div {
+      align-items: center; 
+      padding: 15vh;
+    }
+
+    .snake {
+      background-color: hsl(85, 59%, 48%);
+      border: .25vmin solid #474B4F;
+    }
+
+    .food {
+      background-color: #61892F;
+      border: .25vmin solid #474B4F;
+    }
+  </style>
+  <script src="game.js" defer type="module"></script>
+</head>
+<body>
+  <header>
+    <div class="wrapper">
+      <div class="logo">
+        <a href="index.html">Isaiah Rice</a>
+      </div>
+      <nav>
+        <a href="../index.html">Home</a> <a href="../about.html">About</a> <a href="/snakeGame/snakeIndex.html">Snake</a> <a href="../pricing.html">Pricing</a> <a href="#" class='nav-button'>Sign Up</a>
+      </nav>
+    </div>
+  </header>
+  <div class="game-board-div">
+    <div id="game-board"></div>
+  </div>
+</body>
+</html>
